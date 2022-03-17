@@ -1,0 +1,81 @@
+/* Define application-wide selectors here!*/
+
+ul li{
+	list-style-type: none;
+}
+
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family:serif;
+	font-size: 12px;
+}
+
+.buttons {
+	background-color: rgb(0, 60, 255);
+	padding: 10px;
+	color: antiquewhite;
+}
+
+.left_bars {
+	padding-top: 12px;
+}
+
+.left_bars:hover{
+	background-color: lightgray;
+}
+
+.fa-cog {
+	font-size: 20px;
+}
+
+
+.settings-gear-btn {
+	padding: 8px 10px;
+	background-color: whitesmoke;
+}
+
+button {
+	// background-color:
+	// border-color:
+	// color:
+	// font-weight:
+	// padding:
+	// border-radius:
+	// transition:
+	// font-family:
+	// text-transform:
+	// font-size:
+	// text-align:
+}
+
+button:hover {
+	// background-color:
+	// border-color:
+}
+
+/*
+	Header Rules
+*/
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: $light-gray;
+}
+
+.hr-top, .hr-bottom {
+	width: 100%;
+	margin: 0;
+}
+
+.hr-top {
+	height: 2px;
+	margin-bottom: 1px;
+}
